@@ -21,8 +21,8 @@ pipeline {
         } 
         stage('Docker_build') {
             steps {
-                echo 'Docker build_projectd'
-                sh 'docker build -t projectd .' 
+                echo 'Docker build_Hello_World_Project'
+                sh 'docker build -t hello_world_project .' 
             }
         }
         stage('login to dockerhub') {
