@@ -28,7 +28,7 @@ pipeline {
         stage('login to dockerhub') {
             steps {
                 echo 'login to dockerhub'
-                sh 'docker login -u abhishekc23 -p abhi@4321'
+                sh 'docker login -u abhishekc23 -p abhi'
             }
         } 
         stage('Tag the Image') {
