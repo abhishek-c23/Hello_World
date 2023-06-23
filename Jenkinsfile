@@ -9,7 +9,7 @@ pipeline {
         stage('clone_Hello_World_Project') {
             steps {
                 echo 'clone Hello_World_Project'
-                git 'https://github.com/vincloud2/Helloworld-latest.git'
+                git 'https://github.com/abhishek-c23/Hello_World.git'
             }
         }
         stage('build_Hello_World_Project') {
